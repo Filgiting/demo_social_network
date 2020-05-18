@@ -1,0 +1,19 @@
+.header {
+    grid-area: h;
+    background-image: url('https://laegemiddelstyrelsen.dk/~/media/30A26DC3F2904D958B5633E98EBDFE48.jpg');
+}
+
+.header img {
+    width: 200px;
+    height: 60px;
+}
+
+.loginBlock {
+    float: right;
+    color: sandybrown;
+    padding: 15px;
+}
+
+.loginBlock a {
+    color: chartreuse;
+}
