@@ -10,7 +10,7 @@ import styles from './../common/FormsControls/FormsControls.module.css';
 const maxLength10 = maxLengthCreator(20);
 const Input = Element('input');
 
-const LoginForm = (handleSubmit, error) => {
+const LoginForm = ({handleSubmit, error}) => {
 
     return (
         <form onSubmit={handleSubmit}>
